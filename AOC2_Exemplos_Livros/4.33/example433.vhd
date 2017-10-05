@@ -1,0 +1,22 @@
+-- 4.33(a): unsigned multiplier
+
+library IEEE; 
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.std_logic_signed.all;
+
+
+-- SW
+-- a = 0 a 3
+-- b = 4 a 7
+
+entity example433 is
+port(
+	SW: in STD_LOGIC_VECTOR(7 downto 0);
+	LEDG: out STD_LOGIC_VECTOR(7 downto 0)
+	);
+end;
+
+architecture synth of example433 is
+begin
+	LEDG <= SW(3 downto 0) * SW(7 downto 4);
+end;

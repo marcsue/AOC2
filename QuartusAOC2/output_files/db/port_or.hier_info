@@ -1,0 +1,8 @@
+|port_or
+c => s.IN0
+c => s.IN1
+d => s.IN1
+e => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

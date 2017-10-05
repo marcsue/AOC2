@@ -1,0 +1,46 @@
+|ex15
+sw[0] => sw[0].IN1
+sw[1] => sw[1].IN1
+sw[2] => sw[2].IN1
+sw[3] => sw[3].IN1
+sw[4] => sw[4].IN1
+sw[5] => sw[5].IN1
+sw[6] => sw[6].IN1
+sw[7] => sw[7].IN1
+s => s.IN1
+ledg[0] <= ledg[0].DB_MAX_OUTPUT_PORT_TYPE
+ledg[1] <= ledg[1].DB_MAX_OUTPUT_PORT_TYPE
+ledg[2] <= ledg[2].DB_MAX_OUTPUT_PORT_TYPE
+ledg[3] <= ledg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ex15|tristate:t0
+sw[0] => ledg[0].DATAIN
+sw[1] => ledg[1].DATAIN
+sw[2] => ledg[2].DATAIN
+sw[3] => ledg[3].DATAIN
+en => ledg[0].OE
+en => ledg[1].OE
+en => ledg[2].OE
+en => ledg[3].OE
+ledg[0] <= ledg[0].DB_MAX_OUTPUT_PORT_TYPE
+ledg[1] <= ledg[1].DB_MAX_OUTPUT_PORT_TYPE
+ledg[2] <= ledg[2].DB_MAX_OUTPUT_PORT_TYPE
+ledg[3] <= ledg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ex15|tristate:t1
+sw[0] => ledg[0].DATAIN
+sw[1] => ledg[1].DATAIN
+sw[2] => ledg[2].DATAIN
+sw[3] => ledg[3].DATAIN
+en => ledg[0].OE
+en => ledg[1].OE
+en => ledg[2].OE
+en => ledg[3].OE
+ledg[0] <= ledg[0].DB_MAX_OUTPUT_PORT_TYPE
+ledg[1] <= ledg[1].DB_MAX_OUTPUT_PORT_TYPE
+ledg[2] <= ledg[2].DB_MAX_OUTPUT_PORT_TYPE
+ledg[3] <= ledg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

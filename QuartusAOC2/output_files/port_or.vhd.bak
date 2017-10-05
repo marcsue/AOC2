@@ -1,0 +1,11 @@
+entity port_or is 
+	port(	
+	-- VARIAVEL : IN/OUT TIPO	
+	c,d : in logic ;
+	 s : out logic );
+end entity;
+	 
+architecture comportamento of port_or is
+	begin 
+		s<= c or d;
+	end comportamento;

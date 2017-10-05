@@ -1,0 +1,30 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.all;
+
+entity seven_seg_decoder is
+port(
+		SW   : in  STD_LOGIC_VECTOR(3 downto 0);
+		HEX0 : out STD_LOGIC_VECTOR(6 downto 0));
+end;
+
+architecture synth of seven_seg_decoder is
+	--signal concatena : STD_LOGIC_VECTOR(3 downto 0);
+begin
+		--concatena  <= SW(3) & SW(2) & SW(1) & SW(0);	
+	process(SW) begin
+	case SW is
+						       --abcdefg
+	when "0000" => HEX0 <= "1111110";
+	when "0001" => HEX0 <= "0110000";
+	--when X"2" => HEX0 <= "1101101";
+	--when X"3" => HEX0 <= "1111001";
+	--when X"4" => HEX0 <= "0110011";
+	--when X"5" => HEX0 <= "1011011";
+	--when X"6" => HEX0 <= "1011111";
+	--when X"7" => HEX0 <= "1110000";
+	--when X"8" => HEX0 <= "1111111";
+	--when X"9" => HEX0 <= "1110011";
+	when others => HEX0 <= "0000000";
+	end case;
+	end process;
+end architecture;

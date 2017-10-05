@@ -1,0 +1,12 @@
+|example41
+sw[0] => ledG.IN0
+sw[0] => ledG.IN0
+sw[1] => ledG.IN1
+sw[1] => ledG.IN1
+sw[2] => ledG.IN1
+sw[2] => ledG.IN1
+sw[2] => ledG.IN1
+ledG[0] <= ledG.DB_MAX_OUTPUT_PORT_TYPE
+ledG[1] <= <GND>
+
+

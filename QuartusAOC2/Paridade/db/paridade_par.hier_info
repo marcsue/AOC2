@@ -1,0 +1,10 @@
+|paridade_par
+SW[4] => aux.IN1
+SW[3] => aux[2].IN1
+SW[2] => aux[1].IN1
+SW[1] => aux[0].IN0
+SW[0] => aux[0].IN1
+LEDG[0] << aux.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[1] << <GND>
+
+

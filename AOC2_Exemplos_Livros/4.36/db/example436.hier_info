@@ -1,0 +1,12 @@
+|example436
+SW[0] => x[1].IN0
+SW[1] => x[1].IN1
+SW[2] => x[2].IN1
+SW[3] => x[3].IN1
+SW[4] => x[4].IN1
+SW[5] => x[5].IN1
+SW[6] => x[6].IN1
+SW[7] => x.IN1
+LEDG <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+

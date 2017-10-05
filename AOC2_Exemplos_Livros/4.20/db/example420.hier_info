@@ -1,0 +1,8 @@
+|example420
+SW[0] => n1.DATAIN
+SW[1] => LEDG[0]~reg0.CLK
+SW[1] => n1.CLK
+LEDG[0] <= LEDG[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[1] <= <GND>
+
+

@@ -1,0 +1,20 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_SIGNED.all;
+
+entity decoder is
+	generic(N: integer := 3);
+port(
+	SW: in STD_LOGIC_VECTOR(N-1 downto 0);
+	LEDG: out STD_LOGIC_VECTOR(2**N-1 downto 0) 	--2**N = 2^N
+	);
+end;
+
+architecture synth of decoder is
+begin
+	process(all)
+	begin
+		LEDG <= (OTHERS => '0');
+		LEDG(TO_INTEGER(SW)) <= '1';
+	end process;
+end;

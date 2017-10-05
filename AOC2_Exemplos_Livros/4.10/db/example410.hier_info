@@ -1,0 +1,15 @@
+|example410
+sw[0] => ledG[0].DATAIN
+sw[1] => ledG[1].DATAIN
+sw[2] => ledG[2].DATAIN
+sw[3] => ledG[3].DATAIN
+sw[4] => ledG[0].OE
+sw[4] => ledG[1].OE
+sw[4] => ledG[2].OE
+sw[4] => ledG[3].OE
+ledG[0] <= ledG[0].DB_MAX_OUTPUT_PORT_TYPE
+ledG[1] <= ledG[1].DB_MAX_OUTPUT_PORT_TYPE
+ledG[2] <= ledG[2].DB_MAX_OUTPUT_PORT_TYPE
+ledG[3] <= ledG[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

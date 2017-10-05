@@ -1,0 +1,29 @@
+|example46
+sw[0] => ledG.DATAB
+sw[1] => ledG.DATAB
+sw[2] => ledG.DATAB
+sw[3] => ledG.DATAB
+sw[4] => ledG.DATAB
+sw[5] => ledG.DATAB
+sw[6] => ledG.DATAB
+sw[7] => ledG.DATAB
+sw[8] => ledG.DATAB
+sw[9] => ledG.DATAB
+sw[10] => ledG.DATAB
+sw[11] => ledG.DATAB
+sw[12] => ledG.DATAA
+sw[13] => ledG.DATAA
+sw[14] => ledG.DATAA
+sw[15] => ledG.DATAA
+sw[16] => Equal0.IN0
+sw[16] => Equal1.IN1
+sw[16] => Equal2.IN1
+sw[17] => Equal0.IN1
+sw[17] => Equal1.IN0
+sw[17] => Equal2.IN0
+ledG[0] <= ledG.DB_MAX_OUTPUT_PORT_TYPE
+ledG[1] <= ledG.DB_MAX_OUTPUT_PORT_TYPE
+ledG[2] <= ledG.DB_MAX_OUTPUT_PORT_TYPE
+ledG[3] <= ledG.DB_MAX_OUTPUT_PORT_TYPE
+
+
